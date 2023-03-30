@@ -1,4 +1,4 @@
-data "aws_availability_zones" "available_zones" {
+data "aws_availability_zofnes" "available_zones" {
   state = "available"
 }
 resource "aws_vpc" "default" {
